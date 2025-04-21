@@ -176,7 +176,7 @@ write.csv(data.frame(Feature = names(importance_scores), Importance_Score = impo
           file = "importance_scores_gwas.csv",
           row.names = FALSE)
 
-# Step 12: Visulization
+# Step 12: Visualization
 # Convert importance score to P value like
 imp<-importance_scores
 myP=1/(exp(20*imp))
